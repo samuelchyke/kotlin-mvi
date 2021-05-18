@@ -1,7 +1,8 @@
-package com.example.kotlin_mvi_architecture
+package com.example.kotlin_mvi_architecture.ui.main
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.kotlin_mvi_architecture.R
 
 class MainActivity : AppCompatActivity()
 {

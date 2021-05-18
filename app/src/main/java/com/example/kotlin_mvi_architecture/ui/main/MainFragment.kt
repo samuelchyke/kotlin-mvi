@@ -1,4 +1,4 @@
-package com.example.kotlin_mvi_architecture
+package com.example.kotlin_mvi_architecture.ui.main
 
 import android.content.Context
 import android.os.Bundle
