@@ -3,22 +3,26 @@ package com.example.kotlin_mvi_architecture.model
 import com.google.gson.annotations.Expose
 import com.google.gson.annotations.SerializedName
 
-data class User (
+class BlogPost (
 
     @Expose
-    @SerializedName("email")
-    val email: String? = null,
+    @SerializedName("pk")
+    val pk: Int? = null,
 
     @Expose
-    @SerializedName("username")
-    val username: String? = null,
+    @SerializedName("title")
+    val title: String? = null,
+
+    @Expose
+    @SerializedName("body")
+    val body: String? = null,
 
     @Expose
     @SerializedName("image")
     val image: String? = null
 
-){
+) {
     override fun toString(): String {
-        return "User(email=$email, username=$username, image=$image)"
+        return "BlogPost(pk=$pk, title=$title, body=$body, image=$image)"
     }
 }
